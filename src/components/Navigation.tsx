@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 import {NavLink as Link} from "react-router-dom";
 import {CgBookmark, CgHome, CgProfile} from "react-icons/cg";
+import {GiRoad} from "react-icons/gi";
+import {BiPaperclip} from "react-icons/bi";
+import {GrCertificate} from "react-icons/gr";
 
 
 export const NavLink = styled(Link)`
@@ -31,6 +34,21 @@ export default function Navigation() {
                 <li>
                     <NavLink to="/About">
                         <CgProfile/>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to="/Career">
+                        <GiRoad/>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to="/Certificates">
+                        <GrCertificate/>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to="/Products">
+                        <BiPaperclip/>
                     </NavLink>
                 </li>
                 <li>
