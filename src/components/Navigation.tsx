@@ -23,41 +23,41 @@ export const NavLink = styled(Link)`
 
 export default function Navigation() {
     return (
-      <>
-        <div className="absolute right-10 top-0 bottom-0 m-auto w-min h-min">
-            <ul className="flex flex-col gap-5 text-4xl">
-                <li>
-                    <NavLink to="/">
-                        <CgHome/>
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink to="/About">
-                        <CgProfile/>
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink to="/Career">
-                        <GiRoad/>
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink to="/Certificates">
-                        <GrCertificate/>
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink to="/Products">
-                        <BiPaperclip/>
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink to="https://github.com/hacimertgokhan?tab=repositories">
-                        <CgBookmark/>
-                    </NavLink>
-                </li>
-            </ul>
-        </div>
-      </>
+        <>
+            <div className="absolute right-10 top-0 bottom-0 m-auto w-min h-min">
+                <ul className="flex flex-col gap-5 text-4xl">
+                    <li>
+                        <NavLink to="/">
+                            <CgHome/>
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/About">
+                            <CgProfile/>
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/Career">
+                            <GiRoad/>
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/Certificates">
+                            <GrCertificate/>
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/Products">
+                            <BiPaperclip/>
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="https://github.com/hacimertgokhan?tab=repositories">
+                            <CgBookmark/>
+                        </NavLink>
+                    </li>
+                </ul>
+            </div>
+        </>
     );
 }

@@ -4,7 +4,7 @@ import Welcome from "../components/Welcome.tsx";
 
 export default function Home() {
     return (
-        <main className="bg-blue-500 w-screen h-screen flex overflow-hidden">
+        <main className="flex overflow-hidden absolute inset-0 h-full w-full bg-white bg-[radial-gradient(lightblue_1px,transparent_1px)] [background-size:16px_16px]">
             <div className="w-1/2 h-screen flex items-center justify-center">
               <span>
                 <Title/>

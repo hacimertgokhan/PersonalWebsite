@@ -5,7 +5,7 @@ import TechStacks from "../components/about/TechStacks.tsx";
 
 export default function About() {
     return (
-        <main className="bg-blue-500 w-screen h-screen flex overflow-hidden">
+        <main className="flex overflow-hidden absolute inset-0 h-full w-full bg-white bg-[radial-gradient(lightblue_1px,transparent_1px)] [background-size:16px_16px]">
             <div className="w-1/2 h-screen flex flex-col items-center justify-center">
                 <span>
                     <Header/>
